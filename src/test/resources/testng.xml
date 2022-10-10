@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="IMDBWiki Suite">
+
+	<test name="VerifyMovieDetails">
+		<classes>
+			<class name="com.movies.VerifyMovieDetails"></class>
+		</classes>
+	</test>
+
+</suite>
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-09T21:31:09 IST" name="Default suite" finished-at="2022-10-09T21:32:35 IST" duration-ms="86332">
+    <groups>
+    </groups>
+    <test started-at="2022-10-09T21:31:09 IST" name="Default test" finished-at="2022-10-09T21:32:35 IST" duration-ms="86332">
+      <class name="com.movies.VerifyMovieDetails">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.movies.VerifyMovieDetails@3b35a229]" started-at="2022-10-09T21:31:09 IST" name="init" finished-at="2022-10-09T21:31:10 IST" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyMovieDetails(java.util.Hashtable)[pri:0, instance:com.movies.VerifyMovieDetails@3b35a229]" started-at="2022-10-09T21:31:10 IST" name="verifyMovieDetails" data-provider="getData" finished-at="2022-10-09T21:31:34 IST" duration-ms="24257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{MovieName=Pushpa, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMovieDetails -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.movies.VerifyMovieDetails@3b35a229]" started-at="2022-10-09T21:31:34 IST" name="quit" finished-at="2022-10-09T21:31:35 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method signature="verifyMovieDetails(java.util.Hashtable)[pri:0, instance:com.movies.VerifyMovieDetails@3b35a229]" started-at="2022-10-09T21:31:35 IST" name="verifyMovieDetails" data-provider="getData" finished-at="2022-10-09T21:31:53 IST" duration-ms="18514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{MovieName=Bangalore Days, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMovieDetails -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.movies.VerifyMovieDetails@3b35a229]" started-at="2022-10-09T21:31:53 IST" name="quit" finished-at="2022-10-09T21:31:53 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method signature="verifyMovieDetails(java.util.Hashtable)[pri:0, instance:com.movies.VerifyMovieDetails@3b35a229]" started-at="2022-10-09T21:31:53 IST" name="verifyMovieDetails" data-provider="getData" finished-at="2022-10-09T21:32:15 IST" duration-ms="21253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{MovieName=jathi ratnalu, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMovieDetails -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.movies.VerifyMovieDetails@3b35a229]" started-at="2022-10-09T21:32:15 IST" name="quit" finished-at="2022-10-09T21:32:15 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method signature="verifyMovieDetails(java.util.Hashtable)[pri:0, instance:com.movies.VerifyMovieDetails@3b35a229]" started-at="2022-10-09T21:32:15 IST" name="verifyMovieDetails" data-provider="getData" finished-at="2022-10-09T21:32:35 IST" duration-ms="20613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{MovieName=Ponniyin Selvan, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMovieDetails -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.movies.VerifyMovieDetails@3b35a229]" started-at="2022-10-09T21:32:35 IST" name="quit" finished-at="2022-10-09T21:32:35 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:com.movies.VerifyMovieDetails@3b35a229]" started-at="2022-10-09T21:32:35 IST" name="afterSuite" finished-at="2022-10-09T21:32:35 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@411fa0ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.movies.VerifyMovieDetails -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
